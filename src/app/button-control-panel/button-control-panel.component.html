@@ -1,6 +1,32 @@
-<div class="k-panel">
+<!-- Angular Kendo tutorial link: https://www.telerik.com/campaigns/kendo-ui/using-kendo-ui-with-angular-video-tutorial -->
+
+<!-- <div class="k-panel">
     <button kendoButton [look]="'default'">Default Button</button>
     <button kendoButton [look]="'outline'">Outline Button</button>
     <button kendoButton [look]="'bare'">Bare Button</button>
-    <button kendoButton>Button</button>
-</div>
+    <button kendoButton [disabled]="true">Button</button>
+</div> -->
+
+<!-- <button kendoButton [primary]="true">Primary Action</button>
+<button kendoButton [togglable]="true">Toggleable</button>
+<button kendoButton [look]="'outline'" [icon]="'calendar'">Icon Button</button> -->
+
+<!-- Built-in Kendo UI icons link: https://www.telerik.com/kendo-angular-ui/components/styling/icons/ -->
+<!-- <button kendoButton [icon]="'cs'">Icon Button</button>
+<button kendoButton [icon]="'vb'">Icon Button</button>
+<button kendoButton [icon]="'sln'">Icon Button</button>
+<button kendoButton [icon]="'file-word'">Icon Button</button>
+<button kendoButton [icon]="'saturation'">Icon Button</button>
+<button kendoButton [icon]="'share'">Icon Button</button>
+<button kendoButton [icon]="'save'">Icon Button</button>
+<button kendoButton [icon]="'print'">Icon Button</button>
+<button kendoButton [icon]="'reset'">Icon Button</button>
+<button kendoButton [icon]="'attachment'">Icon Button</button> -->
+
+<kendo-buttongroup [width]="100" look="outline">
+    <button kendoButton [icon]="'user'" [togglable]="true">Icon Button</button>
+    <button kendoButton [icon]="'check'" [togglable]="true">Icon Button</button>
+    <button kendoButton [icon]="'calendar'"[togglable]="true">Icon Button</button>
+</kendo-buttongroup>
+
+<!-- There also are the DropDrownButton and the SplitButton -->
